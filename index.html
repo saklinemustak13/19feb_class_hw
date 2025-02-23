@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Bootstrap Layout</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+        <!-- Two equal columns -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="box box-1"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box box-1"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Three equal columns -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="box box-2"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box box-2"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box box-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single full-width column -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="box box-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Four equal columns -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="box box-4"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box box-4"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box box-4"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box box-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nested rows and columns example -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 bg-dark">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="box box-5"></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="box box-5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="box box-5"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order example -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 bg-dark order-2">
+                    <div class="box box-6"></div>
+                </div>
+                <div class="col-lg-5 order-1">
+                    <div class="box box-6"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Offset example -->
+        <div class="container">
+            <div class="row">
+                <div class="offset-lg-3 col-lg-2">
+                    <div class="box box-7"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box box-7"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
